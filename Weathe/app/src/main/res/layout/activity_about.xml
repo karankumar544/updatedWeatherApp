@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutActivity">
+
+  <ImageView
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_marginTop="15dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginEnd="15dp"
+      android:id="@+id/mitLogo"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      android:src="@drawable/mitlogo"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:id="@+id/MIT"
+    app:layout_constraintTop_toBottomOf="@+id/mitLogo"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:text="@string/mit_muzaffarpur"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+  <TextView
+      android:id="@+id/name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="15dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginEnd="15dp"
+      android:gravity="center"
+      android:text="@string/name_karan_kumar_baitha_department_information_techonology_reg_no_21106107021"
+      android:textSize="18sp"
+      android:textStyle="normal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/MIT" />
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:id="@+id/DepartmentLogo"
+    app:layout_constraintTop_toBottomOf="@+id/name"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:text="@string/department"
+    android:src="@drawable/department"
+    android:scaleType="centerCrop"/>
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/Deparment"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/DepartmentLogo"
+      android:layout_marginTop="8dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:text="@string/department"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+  <TextView
+      android:id="@+id/About"
+      android:layout_width="306dp"
+      android:layout_height="47dp"
+      android:gravity="start"
+      android:text="@string/this_project_has_been_made_under_the_guidance_of_professor_ashish_kumar"
+      android:textSize="18sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Deparment"
+      android:layout_marginTop="15dp"
+      android:layout_marginStart="15dp"
+      android:layout_marginEnd="15dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

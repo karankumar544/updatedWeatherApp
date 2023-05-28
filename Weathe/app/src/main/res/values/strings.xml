@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="city_name">" "</string>
+    <string name="enter_your_city">Enter your city</string>
+    <string name="description">Description</string>
+    <string name="this_project_has_been_made_under_the_guidance_of_professor_ashish_kumar">this project has been made under the\nguidance of Professor Ashish kumar</string>
+    <string name="name_karan_kumar_baitha_department_information_techonology_reg_no_21106107021"> Name: Karan Kumar Baitha\nReg. No: 21106107021</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="_07_50_am">07:50 AM</string>
+    <string name="wind_m_s">Wind(m/s)</string>
+    <string name="_1000">1000</string>
+    <string name="sunset">Sunset</string>
+    <string name="_07_00_am">07:00 AM</string>
+    <string name="humidity">  Humidity(%) </string>
+    <string name="_100">100</string>
+    <string name="pressure_hpa">Pressure(hPa)</string>
+    <string name="_10000">1000</string>
+    <string name="_25">25</string>
+    <string name="u2103">℃</string>
+    <string name="cityName">Muzaffarpur</string>
+    <string name="hiden" />
+    <string name="mit_muzaffarpur">MIT MUZAFFARPUR</string>
+    <string name="department">Department: Information Technology</string>
+</resources>
